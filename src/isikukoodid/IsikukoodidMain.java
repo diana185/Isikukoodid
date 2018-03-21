@@ -548,6 +548,7 @@ public class IsikukoodidMain extends javax.swing.JFrame {
             txtPersonalcode.setText(gen.getPersonalcode());
         } else {
             txaResult.setText(gen.getPersonalcode());
+            txtPersonalcode.setText("");
         }
     }//GEN-LAST:event_btnGenerateActionPerformed
 
